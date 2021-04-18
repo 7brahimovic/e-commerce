@@ -1,14 +1,35 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
+
 import './App.css';
 
-import Homepage from './pages/homepage/homepage.component';
+import HomePage from './pages/homepage/homepage.component';
+import GirlsPage from './pages/girls/girls.component'
 
-class App extends Component {
-  render() {
-    return <div className='App'>
-      <Homepage />      
-      </div>;
-  }
+const MiyukiPage = () => (
+  <div>
+    <h1>MIYUKI PAGE</h1>
+  </div>
+);
+
+function App() {
+  return (
+    <div >
+      <Switch>
+      <Route exact path='/' component={HomePage} />
+      <Route path='/girls' component={GirlsPage} />
+
+      </Switch>
+    </div>
+
+  )
 }
+// class App extends Component {
+//   render() {
+//     return <div className='App'>
+//       <Homepage />      
+//       </div>;
+//   }
+// }
 
 export default App;
