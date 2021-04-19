@@ -4,7 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
-import GirlsPage from './pages/girls/girls.component'
+import GirlsPage from './pages/girls/girls.component';
 
 const MiyukiPage = () => (
   <div>

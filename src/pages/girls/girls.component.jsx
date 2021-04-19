@@ -1,19 +1,29 @@
 import React from 'react';
 
-import GIRLS_DATA from './girls.data.js'
+import GIRLS_DATA from './girls.data.js';
 
-class GirlsPage extends React.Component{
-    constructor(props){
+import CollectionPreview from '../../components/collection-preview/collection-preview.component';
+
+class GirlsPage extends React.Component {
+    constructor(props) {
         super(props);
 
-        this.state={
-            collection: GIRLS_DATA
-            
+        this.state = {
+            collections: GIRLS_DATA
+
         }
     }
 
-    render(){
-        return <div>GIRLS PAGE</div>
+    render() {
+        const { collections } = this.state;
+        return (<div className='girl-page'>
+            {
+                collections.map(({id, ...otherCollectionProps})=>(
+                    <CollectionPreview key={id} {...otherCollectionProps}/>
+                ))
+            }
+        </div>
+        )
     }
 }
 

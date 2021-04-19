@@ -1,38 +1,59 @@
 /* Used as starting data for ShopPage */
 
+import miyuki1 from '../../image/miyuki/miyuki1.jpg';
+import miyuki2 from '../../image/miyuki/miyuki2.jpg';
+import miyuki3 from '../../image/miyuki/miyuki3.jpg';
+import miyuki4 from '../../image/miyuki/miyuki4.jpg';
+import mai1 from '../../image/mai/mai1.jpg';
+import mai2 from '../../image/mai/mai2.jpg';
+import mai3 from '../../image/mai/mai3.jpg';
+import mai4 from '../../image/mai/mai4.jpg';
+import sarii1 from '../../image/sarii/sarii1.jpg';
+import sarii2 from '../../image/sarii/sarii2.jpg';
+import sarii3 from '../../image/sarii/sarii3.jpg';
+import sarii4 from '../../image/sarii/sarii4.jpg';
+import rino1 from '../../image/rino/rino1.jpg';
+import rino2 from '../../image/rino/rino2.jpg';
+import rino3 from '../../image/rino/rino3.jpg';
+import rino4 from '../../image/rino/rino4.jpg';
+import yuki1 from '../../image/yuki/yuki1.jpg';
+import yuki2 from '../../image/yuki/yuki2.jpg';
+import yuki3 from '../../image/yuki/yuki3.jpg';
+import yuki4 from '../../image/yuki/yuki4.jpg';
+
 const GIRLS_DATA = [
     {
       id: 1,
-      title: 'Hats',
-      routeName: 'hats',
+      title: 'Watanabe Myuki',
+      routeName: 'miyuki',
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
-          // imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          imageUrl: "/images/shop-img/hats/brown-brim.png",
-          price: 25
+          name: '口フェラ',
+          //imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          imageUrl:miyuki1,
+          price:　1000000
         },
         {
           id: 2,
-          name: 'Blue Beanie',
+          name: '素股',
           // imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          imageUrl: "/images/shop-img/hats/blue-beanie.png",
-          price: 18
+          imageUrl: miyuki2,
+          price: 5000000
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
+          name: '本番',
           // imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          imageUrl: "/images/shop-img/hats/brown-cowboy.png",
-          price: 35
+          imageUrl: miyuki3,
+          price: 8000000
         },
         {
           id: 4,
-          name: 'Grey Brim',
+          name: '中出し',
           // imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          imageUrl: "/images/shop-img/hats/grey-brim.png",
-          price: 25
+          imageUrl: miyuki4,
+          price: 10000000
         },
         {
           id: 5,
@@ -73,36 +94,36 @@ const GIRLS_DATA = [
     },
     {
       id: 2,
-      title: 'Sneakers',
-      routeName: 'sneakers',
+      title: 'Shiraishi Mai',
+      routeName: 'Mai',
       items: [
         {
           id: 10,
-          name: 'Adidas NMD',
+          name: '口フェラ',
           // imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          imageUrl: "/images/shop-img/sneakers/adidas-nmd.png", 
-          price: 220
+          imageUrl: mai1, 
+          price: 1000000
         },
         {
           id: 11,
-          name: 'Adidas Yeezy',
+          name: '素股',
           // imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-          imageUrl: "/images/shop-img/sneakers/yeezy.png",
-          price: 280
+          imageUrl:mai2,
+          price: 5000000
         },
         {
           id: 12,
-          name: 'Black Converse',
+          name: '本番',
           // imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-          imageUrl: "/images/shop-img/sneakers/black-converse.png",
-          price: 110
+          imageUrl: mai3,
+          price: 8000000
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
+          name: '中出し',
           // imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-          imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
-          price: 160
+          imageUrl: mai4,
+          price: 10000000
         },
         {
           id: 14,
@@ -136,36 +157,36 @@ const GIRLS_DATA = [
     },
     {
       id: 3,
-      title: 'Jackets',
-      routeName: 'jackets',
+      title: 'Ikegami Sarii',
+      routeName: 'Sarii',
       items: [
         {
           id: 18,
-          name: 'Black Jean Shearling',
+          name: '口フェラ',
           // imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-          imageUrl: "/images/shop-img/jackets/black-shearling.png",
-          price: 125
+          imageUrl: sarii1,
+          price: 1000000
         },
         {
           id: 19,
-          name: 'Blue Jean Jacket',
+          name: '素股',
           // imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-          imageUrl: "/images/shop-img/jackets/blue-jean-jacket.png",
-          price: 90
+          imageUrl: sarii2,
+          price: 5000000
         },
         {
           id: 20,
-          name: 'Grey Jean Jacket',
+          name: '本番',
           // imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-          imageUrl: "/images/shop-img/jackets/grey-jean-jacket.png",
-          price: 90
+          imageUrl: sarii3,
+          price: 8000000
         },
         {
           id: 21,
-          name: 'Brown Shearling',
+          name: '中出し',
           // imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-          imageUrl: "/images/shop-img/jackets/brown-shearling.png",
-          price: 165
+          imageUrl: sarii4,
+          price: 10000000
         },
         {
           id: 22,
@@ -178,36 +199,36 @@ const GIRLS_DATA = [
     },
     {
       id: 4,
-      title: 'Womens',
-      routeName: 'womens',
+      title: 'Sashihara Rino',
+      routeName: 'rino',
       items: [
         {
           id: 23,
-          name: 'Blue Tanktop',
+          name: '口フェラ',
           // imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-          imageUrl: "/images/shop-img/womens/blue-tank.png",
-          price: 25
+          imageUrl: rino1,
+          price: 1000000
         },
         {
           id: 24,
-          name: 'Floral Blouse',
+          name: '素股',
           // imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-          imageUrl: "/images/shop-img/womens/floral-blouse.png",
-          price: 20
+          imageUrl: rino2,
+          price: 5000000
         },
         {
           id: 25,
-          name: 'Floral Dress',
+          name: '本番',
           // imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-          imageUrl: "/images/shop-img/womens/floral-skirt.png",
-          price: 80
+          imageUrl: rino3,
+          price: 8000000
         },
         {
           id: 26,
-          name: 'Red Dots Dress',
+          name: '中出し',
           // imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-          imageUrl: "/images/shop-img/womens/red-polka-dot-dress.png",
-          price: 80
+          imageUrl: rino4,
+          price: 10000000
         },
         {
           id: 27,
@@ -234,36 +255,36 @@ const GIRLS_DATA = [
     },
     {
       id: 5,
-      title: 'Mens',
-      routeName: 'mens',
+      title: 'Kashiwagi Yuki',
+      routeName: 'yuki',
       items: [
         {
           id: 30,
-          name: 'Camo Down Vest',
+          name: '口フェラ',
           // imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-          imageUrl: "/images/shop-img/mens/camo-vest.png",
-          price: 325
+          imageUrl: yuki1,
+          price: 1000000
         },
         {
           id: 31,
-          name: 'Floral T-shirt',
+          name: '素股',
           // imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-          imageUrl: "/images/shop-img/mens/floral-shirt.png",
-          price: 20
+          imageUrl: yuki2,
+          price: 5000000
         },
         {
           id: 32,
-          name: 'Black & White Longsleeve',
+          name: '本番',
           // imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-          imageUrl: "/images/shop-img/mens/long-sleeve.png",
-          price: 25
+          imageUrl: yuki3,
+          price: 8000000
         },
         {
           id: 33,
-          name: 'Pink T-shirt',
+          name: '中出し',
           // imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-          imageUrl: "/images/shop-img/mens/pink-shirt.png",
-          price: 25
+          imageUrl: yuki4,
+          price: 10000000
         },
         {
           id: 34,
