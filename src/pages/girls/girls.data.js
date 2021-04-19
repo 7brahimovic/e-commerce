@@ -24,7 +24,7 @@ import yuki4 from '../../image/yuki/yuki4.jpg';
 const GIRLS_DATA = [
     {
       id: 1,
-      title: 'Watanabe Myuki',
+      title: 'Watanabe Miyuki',
       routeName: 'miyuki',
       items: [
         {

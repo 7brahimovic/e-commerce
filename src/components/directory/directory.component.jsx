@@ -18,7 +18,7 @@ class Directory extends React.Component {
                     title: 'watanabe miyuki',
                     imageUrl: Miyuki,
                     id: 1,
-                    linkUrl: 'miyuki'
+                    linkUrl: 'girls/miyuki'
                 },
                 {
                     title: 'shiraishi mai',
