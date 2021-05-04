@@ -10,7 +10,7 @@
         cursor: pointer;
       
         & .image {
-          transform: scale(1.05);
+          transform: scale(1.03);
           transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
       
@@ -55,9 +55,7 @@
         width: 90%;
         margin-bottom: 15px;
       }
-  
-      .price {
-      }
+ 
     }
 
     
