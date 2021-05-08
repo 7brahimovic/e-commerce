@@ -15,36 +15,36 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                    title: 'watanabe miyuki',
+                    title: 'Yeezy',
                     imageUrl: Miyuki,
                     id: 1,
                     linkUrl: 'girls/miyuki'
                 },
                 {
-                    title: 'shiraishi mai',
+                    title: 'Air Jordan',
                     imageUrl: Mai,
                     id: 2,
-                    linkUrl: ''
+                    linkUrl: 'girls/mai'
                 },
                 {
-                    title: 'ikegami sarii',
+                    title: 'Sacai',
                     imageUrl: Sarii,
                     id: 3,
-                    linkUrl: ''
+                    linkUrl: 'girls/sarii'
                 },
                 {
-                    title: 'sashihara rino',
+                    title: 'New Balance',
                     imageUrl: Rino,
-                    size: 'large',
+                    // size: 'large',
                     id: 4,
-                    linkUrl: ''
+                    linkUrl: 'girls/rino'
                 },
                 {
-                    title: 'kashiwagi yuki',
+                    title: 'Readymade',
                     imageUrl: Yuki,
-                    size: 'large',
+                    // size: 'large',
                     id: 5,
-                    linkUrl: ''
+                    linkUrl: 'girls/yuki'
                 }
             ]
         }

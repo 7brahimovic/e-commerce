@@ -10,7 +10,7 @@ const CollectionItem = ({ id, name, price, imageUrl }) => (
 
         />
         <div className='content' >
-            <span className='subtitle'>FUCK NOW</span>
+            <span className='subtitle'>BUY NOW</span>
         </div>
         <div className='collection-footer'>
             <span className='name'>{name}</span>

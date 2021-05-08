@@ -1,17 +1,17 @@
 /* Used as starting data for ShopPage */
 
-import miyuki1 from '../../image/miyuki/miyuki1.jpg';
-import miyuki2 from '../../image/miyuki/miyuki2.jpg';
-import miyuki3 from '../../image/miyuki/miyuki3.jpg';
-import miyuki4 from '../../image/miyuki/miyuki4.jpg';
-import mai1 from '../../image/mai/mai1.jpg';
-import mai2 from '../../image/mai/mai2.jpg';
-import mai3 from '../../image/mai/mai3.jpg';
-import mai4 from '../../image/mai/mai4.jpg';
-import sarii1 from '../../image/sarii/sarii1.jpg';
-import sarii2 from '../../image/sarii/sarii2.jpg';
-import sarii3 from '../../image/sarii/sarii3.jpg';
-import sarii4 from '../../image/sarii/sarii4.jpg';
+import miyuki1 from '../../image/miyuki/miyuki1.png';
+import miyuki2 from '../../image/miyuki/miyuki2.png';
+import miyuki3 from '../../image/miyuki/miyuki3.png';
+import miyuki4 from '../../image/miyuki/miyuki4.png';
+import mai1 from '../../image/mai/mai1.png';
+import mai2 from '../../image/mai/mai2.png';
+import mai3 from '../../image/mai/mai3.png';
+import mai4 from '../../image/mai/mai4.png';
+import sarii1 from '../../image/sarii/sarii1.png';
+import sarii2 from '../../image/sarii/sarii2.png';
+import sarii3 from '../../image/sarii/sarii3.png';
+import sarii4 from '../../image/sarii/sarii4.png';
 import rino1 from '../../image/rino/rino1.jpg';
 import rino2 from '../../image/rino/rino2.jpg';
 import rino3 from '../../image/rino/rino3.jpg';
@@ -24,33 +24,33 @@ import yuki4 from '../../image/yuki/yuki4.jpg';
 const GIRLS_DATA = [
     {
       id: 1,
-      title: 'Watanabe Miyuki',
+      title: 'Yeezy',
       routeName: 'miyuki',
       items: [
         {
           id: 1,
-          name: '口フェラ',
+          name: 'sneakers',
           //imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
           imageUrl:miyuki1,
           price:　1000000
         },
         {
           id: 2,
-          name: '素股',
+          name: 'sneakers2',
           // imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
           imageUrl: miyuki2,
           price: 5000000
         },
         {
           id: 3,
-          name: '本番',
+          name: 'sneakers3',
           // imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
           imageUrl: miyuki3,
           price: 8000000
         },
         {
           id: 4,
-          name: '中出し',
+          name: 'sneakers4',
           // imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
           imageUrl: miyuki4,
           price: 10000000
@@ -94,33 +94,33 @@ const GIRLS_DATA = [
     },
     {
       id: 2,
-      title: 'Shiraishi Mai',
+      title: 'Air Jordan',
       routeName: 'Mai',
       items: [
         {
           id: 10,
-          name: '口フェラ',
+          name: 'sneakers',
           // imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
           imageUrl: mai1, 
           price: 1000000
         },
         {
           id: 11,
-          name: '素股',
+          name: 'sneakers2',
           // imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
           imageUrl:mai2,
           price: 5000000
         },
         {
           id: 12,
-          name: '本番',
+          name: 'sneakers3',
           // imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
           imageUrl: mai3,
           price: 8000000
         },
         {
           id: 13,
-          name: '中出し',
+          name: 'sneakers4',
           // imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
           imageUrl: mai4,
           price: 10000000
@@ -157,33 +157,33 @@ const GIRLS_DATA = [
     },
     {
       id: 3,
-      title: 'Ikegami Sarii',
+      title: 'Sacai',
       routeName: 'Sarii',
       items: [
         {
           id: 18,
-          name: '口フェラ',
+          name: 'sneakers',
           // imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
           imageUrl: sarii1,
           price: 1000000
         },
         {
           id: 19,
-          name: '素股',
+          name: 'sneakers2',
           // imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
           imageUrl: sarii2,
           price: 5000000
         },
         {
           id: 20,
-          name: '本番',
+          name: 'sneakers3',
           // imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
           imageUrl: sarii3,
           price: 8000000
         },
         {
           id: 21,
-          name: '中出し',
+          name: 'sneakers4',
           // imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
           imageUrl: sarii4,
           price: 10000000
@@ -199,33 +199,33 @@ const GIRLS_DATA = [
     },
     {
       id: 4,
-      title: 'Sashihara Rino',
+      title: 'New Balance',
       routeName: 'rino',
       items: [
         {
           id: 23,
-          name: '口フェラ',
+          name: 'sneakers',
           // imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
           imageUrl: rino1,
           price: 1000000
         },
         {
           id: 24,
-          name: '素股',
+          name: 'sneakers2',
           // imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
           imageUrl: rino2,
           price: 5000000
         },
         {
           id: 25,
-          name: '本番',
+          name: 'sneakers3',
           // imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
           imageUrl: rino3,
           price: 8000000
         },
         {
           id: 26,
-          name: '中出し',
+          name: 'sneakers4',
           // imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
           imageUrl: rino4,
           price: 10000000
@@ -255,33 +255,33 @@ const GIRLS_DATA = [
     },
     {
       id: 5,
-      title: 'Kashiwagi Yuki',
+      title: 'Readymade',
       routeName: 'yuki',
       items: [
         {
           id: 30,
-          name: '口フェラ',
+          name: 'sneakers',
           // imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
           imageUrl: yuki1,
           price: 1000000
         },
         {
           id: 31,
-          name: '素股',
+          name: 'sneakers2',
           // imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
           imageUrl: yuki2,
           price: 5000000
         },
         {
           id: 32,
-          name: '本番',
+          name: 'sneakers3',
           // imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
           imageUrl: yuki3,
           price: 8000000
         },
         {
           id: 33,
-          name: '中出し',
+          name: 'sneakers4',
           // imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
           imageUrl: yuki4,
           price: 10000000

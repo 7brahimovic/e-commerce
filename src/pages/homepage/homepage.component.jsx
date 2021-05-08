@@ -6,7 +6,7 @@ import './homepage.styles.scss';
 
 const HomePage = ({history}) => (
     <div className='homepage'>
-        <h1>君を犯したい</h1>
+        <h1>SNEAKERS SHOP</h1>
         <Directory history={history} />
     </div>
 )
